@@ -1,0 +1,51 @@
+:root {
+    --fondo-footer: #1c3746;
+    --fondo-btn-form: #96c93e;
+    --fondo-octubre-header: #353a40;
+    --btn-react: #17a2b8;
+    --btn-js: #ffc108;
+    --btn-negocios: #6c747e;
+    --btn-startups: #d63546;
+    --link-ticket: #2e9144;
+    --btn-carousel: #29a744;
+    --text-color: #fff;
+}
+
+.octubre{
+    background-color: var(--fondo-octubre-header);
+}
+
+
+@media screen and (max-width: 900px) {
+    .menu__logo {
+        display: contents;
+    }
+
+    .carrusel{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .carousel-caption{
+        right: 0 !important;
+        left: 0 !important;
+    }
+
+    .carrusel__contenido p{
+        right: 0 !important;
+        bottom: 0;
+        left: 0 !important;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .carrusel__contenido h5{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    } 
+
+    .octubre{
+        padding-bottom: 10px;
+    }
+}
+
